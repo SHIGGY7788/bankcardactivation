@@ -1,0 +1,105 @@
+body {
+    background-color: #112;
+}
+
+.flex-container {
+    margin: 0 auto;
+    border:solid white 2px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75rem;
+    height: 50rem;
+}
+
+
+.main {
+    background-color: #223;
+    width: 75rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoEntry {
+
+    margin-top: 3rem;
+    order: 3;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardNums {
+    background-color: #112;
+    color: white;
+    border-radius: 5px;
+    border: solid white 2px;
+    padding: 3px;
+    width: 31rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+.cardName,
+.cardDate,
+.cardSec {
+    background-color: #112;
+    color: white;
+    border-radius: 5px;
+    border: solid white 2px;
+    padding: 3px;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.cardNums::placeholder,
+.cardName::placeholder,
+.cardDate::placeholder,
+.cardSec::placeholder {
+    color: white;
+}
+
+.submitButton {
+    background-color: #223;
+    color: white;
+    width: 31.5rem;
+    height: 2rem;
+}
+.submit {
+    order: 9;
+}
+
+.long {
+    display: flex;
+    flex-direction: column;
+    flex: 2
+}
+
+.cardRq {
+    background-color: #112;
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.reqBtn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.reqBtn:hover,
+.reqBtn:active,
+.reqBtn:focus {
+    text-decoration: underline;
+}

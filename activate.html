@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="activate.css">
+    <meta charset="UTF-8">
+    <title>Card Activation</title>
+</head>
+<body>
+
+<div class="flex-container">
+    <div class="main">
+        <h1 style="margin-left: 1rem; color: white; order: 1">Please enter the information on your new card:</h1>
+        <form class="infoEntry">
+            <div class="row">
+                <div class="long">
+                    <input style="order: 3" type="tel" class="cardNums" placeholder="Card Number" maxlength="16" minlength="16">
+                </div>
+            </div>
+            <div class="row">
+                <input style="order: 4" type="text" class="cardName" placeholder="First Name">
+                <input style="order: 5" type="text" class="cardName" placeholder="Last Name">
+            </div>
+            <div class="row">
+                <input style="order: 6" type="date" class="cardDate" placeholder="Date: MM/DD/YY" maxlength="8">
+                <input style="order: 7" type="tel" class="cardSec" placeholder="CVC Number" maxlength="4">
+            </div>
+            <div class="submit">
+                <button class="submitButton">Activate</button>
+            </div>
+        </form>
+
+
+        <div class="cardRq" style="order: 10">
+            <p>Want to request a new card?</p>
+            <br>
+            <a class="reqBtn" href="#">Click here!</a>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
